@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nodejs-app",
   "version": "1.0.0",
   "description": "Github Actions 연습을 위한 node.js 예제 프로그램",
@@ -30,4 +31,18 @@
   "dependencies": {
     "express": "^4.21.1"
   }
+=======
+  "name": "actions-runner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "actions-runner": "bin/RunnerService.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+>>>>>>> 801f3962ac4cc400ffa4d44bdc8a122e7ecbd733
 }
